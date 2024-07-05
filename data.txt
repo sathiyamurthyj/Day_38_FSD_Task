@@ -1,0 +1,93 @@
+// Create Room sample data
+
+{
+    "room_name": "Large Hall",
+    "no_of_seats": 150,
+    "amenities": [
+        "AC",
+        "LED TV",
+        "Projector",
+        "Audio System",
+        "Water Doctor",
+        "Mens Restroom",
+        "Womens Restroom",
+        "Kids Play Area"
+    ],
+    "price_per_hour": "18000"
+}
+
+{
+    "room_name": "Medium Hall",
+    "no_of_seats": 100,
+    "amenities": [
+        "AC",
+        "LED TV",
+        "Projector",
+        "Audio System",
+        "Water Doctor",
+        "Wash Room"
+    ],
+    "price_per_hour": "12000"
+}
+
+{
+    "room_name": "Small Hall",
+    "no_of_seats": 50,
+    "amenities": [
+        "AC",
+        "Audio System",
+        "Water Doctor",
+        "Wash Room"
+    ],
+    "price_per_hour": "6000"
+}
+
+//create booking sample data
+
+{
+    "customer_name":"Joshua",
+    "date": "2024-07-06",
+    "start_time":"10:00",
+    "end_time":"12:00",
+    "room_id":"Large Hall-1"
+}
+
+{
+    "customer_name":"Sam",
+    "date": "2024-08-01",
+    "start_time":"11:00",
+    "end_time":"13:00",
+    "room_id":"Large Hall-1"
+}
+
+{
+    "customer_name":"Arnold",
+    "date": "2024-08-02",
+    "start_time":"13:00",
+    "end_time":"16:00",
+    "room_id":"Medium Hall-2"
+}
+
+{
+    "customer_name":"Rosie",
+    "date": "2024-07-24",
+    "start_time":"17:00",
+    "end_time":"19:00",
+    "room_id":"Medium Hall-2"
+}
+
+{
+    "customer_name":"Jacob",
+    "date": "2024-07-27",
+    "start_time":"10:30",
+    "end_time":"13:30",
+    "room_id":"Small Hall-3"
+}
+
+{
+    "customer_name":"Brett",
+    "date": "2024-08-10",
+    "start_time":"16:30",
+    "end_time":"19:30",
+    "room_id":"Small Hall-3"
+}
